@@ -7,7 +7,7 @@ class Criptografia {
         private const val CHAVE_MESTRA = "ROCKET-123"
         var totalOperacoes = 0
 
-        fun descriptografar(codigio: String) : String {
+        fun descriptografar(codigo: String) : String {
             totalOperacoes++
             return if (codigo == "12345") "ACESSO_LIBERADO" else "ACESSO_NEGADO"
         }
