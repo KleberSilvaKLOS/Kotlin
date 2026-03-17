@@ -10,3 +10,16 @@ class Criptografia {
         }
     }
 }
+
+fun main() {
+    //REPARA NISSO: Eu não usei "val c = Criptografia()".
+    // Eu chamo direto pelo nome da classe, porque o método é estático (companion object).
+
+    val resultado1 = Criptografia.descriptografar("12345")
+    println("Tentativa 1: $resultado1")
+
+    val resultado2 = Criptografia.descriptografar("999")
+    println("Tentativa 2: $resultado2")
+
+    println("\nTotal de operações ralizadas no sistema: ${Criptografia.totalOperacoes}")
+}
