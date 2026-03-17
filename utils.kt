@@ -1,3 +1,6 @@
+// Criando uma classe que simula um sistema de criptografia simples.
+// Queremos que a chave de criptografia seja a mesma para o sistam inteiro, sem que precise criar um ojeto novo toda vez.
+
 class Criptografia {
     // O Companion Object é usando com um "balcão de informações" da classe.
     companion object {
