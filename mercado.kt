@@ -49,3 +49,10 @@ fun main() {
     println("\n--- Valor Total do Carrinho ---")
     println("R$ $total")
 }
+
+// O QUE ESTAMOS APRENDENDO AQUI?
+// 1. "listOf": Cria uma lista imutável (você não pode adicionar itens depois de criada, o que evita bugs acidentais).
+// 2. "filter": Cria uma nova lista apenas com o que atende á sua condição (no caso, preço acima de 50 reais).
+// 3. "map": Transforma os dados. Aqui, transformamos uma lista de "Item" em uma lista de "String" (os nomes em maiúsculas).
+// 4. "it": É o nome para o objeto atual dentro da chave {}. É muito prático!
+// 5. "sumOf": Uma função especifica para somar valores numéricos de uma coleção. Aqui, somamos o preço de todos os itens do carrinho."
