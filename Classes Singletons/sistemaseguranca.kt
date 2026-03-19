@@ -19,5 +19,32 @@ object GerenciadorSessão {
         registrarAcao("Usuário ${usuario.nome} (ID: ${usuario.id}) Realizou o login.")
     }
 
-    
+    fun Logout() {
+        registrarAcao("Usuário ${usuarioLogado?.nome} Saiu do sistema.")
+        usuarioLogado = null
+    }
+
+    // Apenas o Singleton pode adicionar ao histórico internamente.
+    private fun registrarAcao(mensagem: String) {
+        logs.add("[LOG] $mensagem")
+    }
+
+    fun realizarAcao(acao: String) {
+        if (usuarioLogado !== null) {
+            registrarAcao("Ação relaizada: $acao")
+            println("Sucesso: $acao executada por ${usuarioLogado?.nome}.")
+        } else {
+            println("Erro: Você precisa estar logado para realizar: $acao")
+        }
+    }
+
+    fun imprimirRelatorio() {
+        println("\n--- Relatório Final Do Sistema ---")
+        if (logs.isEmpty()) {
+            println("Nenhuma ação registrada.")
+        } else {
+            logs.forEach { println(it) }
+        }
+    }
 }
+
