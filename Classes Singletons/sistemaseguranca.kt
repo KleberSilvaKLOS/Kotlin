@@ -58,7 +58,7 @@ fun main() {
 
     // Realizando login com o singleton
     println("\n--- Iniciando Sessão ---")
-    gerenciadorSessao.login(u1) // Alice loga
+    GerenciadorSessao.login(u1) // Alice loga
 
     // Realizando ações
     GerenciadorSessao.realizarAcao("Atualizar Configurações") // Deve ser permitido
