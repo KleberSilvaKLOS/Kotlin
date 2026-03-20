@@ -1,7 +1,3 @@
-Um bom README.md é o cartão de visitas do seu projeto. Como você quer mostrar experiência e o que está aprendendo na Rocketseat, vamos deixar o texto mais profissional, organizado e com uma estrutura que destaque as tecnologias que você usou.
-
-Aqui está uma sugestão de melhoria mantendo a sua essência, mas com um visual de desenvolvedor:
-
 🚀 Estudos Kotlin - Rocketseat
 Este repositório contém uma coleção de atividades e exercícios práticos desenvolvidos durante meus estudos de Kotlin. O objetivo é documentar minha evolução, partindo de conceitos básicos até implementações mais avançadas da linguagem.
 
