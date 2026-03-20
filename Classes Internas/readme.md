@@ -1,0 +1,1 @@
+Diferente da classe aninhada comum, a Inner Class manté uma conexão com a classe externa. Ela consegue "Enxergar" as propriedades da classe pai. Para isso, usamos a palavra-chave inner.
