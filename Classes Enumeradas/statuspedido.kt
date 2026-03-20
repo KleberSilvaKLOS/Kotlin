@@ -23,8 +23,9 @@ fun main() {
     // 2. Usando com o 'when' (o compilador sabe se você esqueceu algum status!)
     when (meuPedido) {
         StatusPedido.AGUARDANDO_PAGAMENTO -> println("Atneção! Prepare o dinheiro!")
+        StatusPedido.PROCESSANDO -> println("Estamos embalando...")
         StatusPedido.ENVIADO -> println("Fique de olho no portão!")
-        else -> println("Status vierificado.")
+        StatusPedido.ENTREGUE -> println("Pedido finalizado.")
     }
 
     // 3. Listando todas as opções disponiveis (útil para menus)
