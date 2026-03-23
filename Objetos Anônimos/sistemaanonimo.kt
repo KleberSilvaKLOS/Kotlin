@@ -1,7 +1,7 @@
 // Vamos usar a interfac "Notificavel" que você criou no exercício anterior. Imagine que, em um caso muito específico do seu app, 
 // você queira enviar uma notificação apenas para o console de debug, sem precisar criar uma classe "DebugNotificacao".
 
-inteface Notificavel {
+interface Notificavel {
     fun enviar(mensagem: String)
 }
 
