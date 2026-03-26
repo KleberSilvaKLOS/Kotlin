@@ -35,4 +35,4 @@ PowerShell
 java -jar saida.jar
 "Fico muito feliz em compartilhar um pouco da minha jornada e do conhecimento que venho adquirindo. Espero que esse conteúdo possa ser útil para quem está começando ou buscando referências em Kotlin!"
 
-Feito com ☕ e dedicação. :
+Feito com ☕ e dedicação.
